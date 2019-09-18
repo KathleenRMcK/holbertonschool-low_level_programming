@@ -1,4 +1,8 @@
-/*                                                                             * main: print with printf                                                      *                                                                              * return: 0                                                                    */
+/*
+*main - Print with printf
+*display output of text
+*return: 0
+*/
 #include <stdio.h>
 int main(void)
 {
