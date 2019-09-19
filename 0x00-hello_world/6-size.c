@@ -1,8 +1,8 @@
 /**
-*main - print sizes with printf
-*
-*return: 0
-*/
+ *main - print size of various types
+ *
+ *return: 0
+ */
 #include <stdio.h>
 int main(void)
 {
