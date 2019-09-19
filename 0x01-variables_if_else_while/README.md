@@ -1,0 +1,1 @@
+In this project, students learn how to use if, else and while as well as assigning values to variables.
