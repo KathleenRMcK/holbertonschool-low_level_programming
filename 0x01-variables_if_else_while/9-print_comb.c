@@ -1,20 +1,20 @@
 /**
- *main - print 0 to 9 with comma and space
+ * main - print 0 to 9 with comma and space
  *
- *return: 0
+ * Return: 0
  */
 #include <stdio.h>
 int main(void)
 {
-  int i;
-  for(i = 48; i <= 57; i++)
-    {
-      if(i != 57)
-        {
-          putchar(',');
-          putchar(' ');
-        }
-      putchar('\n');
-    }
-  return(0);
+int i;
+for (i = 48; i <= 57; i++)
+{
+if (i != 57)
+{
+putchar(',');
+putchar(' ');
+}
+putchar('\n');
+}
+return (0);
 }
