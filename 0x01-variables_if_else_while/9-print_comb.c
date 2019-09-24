@@ -7,9 +7,10 @@
 int main(void)
 {
 int i;
-for (i = 48; i <= 57; i++)
+for (i = '0'; i <= '9'; i++)
 {
-if (i != 57)
+putchar(i);
+if (i >= '0' && i <= '8')
 {
 putchar(',');
 putchar(' ');
