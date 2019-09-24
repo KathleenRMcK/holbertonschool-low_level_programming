@@ -1,14 +1,14 @@
 /**
- *main - print lowercase alphabet using putchar
+ * main - print lowercase alphabet using putchar
  *
- *return: 0
+ * Return: 0
  */
 #include <stdio.h>
 int main(void)
 {
-  int n;
+int n;
 for (n = 'a'; n <= 'z'; n++)
-  putchar(n);
-  putchar('\n');
-  return(0);
+putchar(n);
+putchar('\n');
+return (0);
 }
