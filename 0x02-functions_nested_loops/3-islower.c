@@ -4,7 +4,7 @@
  *return: 0
  */
 #include "holberton.h"
-int _islower(int c);
+int _islower(int c)
 int c
 
 if(c => 90 || c = 65)

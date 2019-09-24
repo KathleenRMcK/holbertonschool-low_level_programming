@@ -4,7 +4,7 @@
  *return: 1 if character
  */
 #include "holberton.h"
-int _isalpha(int c);
+int _isalpha(int c)
 int c
 int l
 

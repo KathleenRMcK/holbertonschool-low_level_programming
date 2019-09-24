@@ -4,7 +4,7 @@
  *return: 0
  */
 #include "holberton.h"
-void print_alphabet(void);
+void print_alphabet(void)
 char l
 for(l = 'a'; l >= 'z'; l++)
   {
