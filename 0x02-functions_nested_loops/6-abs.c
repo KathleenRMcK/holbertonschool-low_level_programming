@@ -1,12 +1,12 @@
 /**
- *main - computes absolute value
- *
- *return: 0
+ * _abs - computes absolute value
+ * @i: number being checked
+ * Return: Output
  */
-int _abs(int)
-int r
+int _abs(int i)
 {
-
-
-  return(0);
+if (i < 0)
+return (-i);
+else
+return (i);
 }
