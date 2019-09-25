@@ -1,14 +1,14 @@
 /**
- *main - print a string using _putchar
+ * main - print a string using _putchar
  *
- *return: 0
+ * Return: 0
  */
 #include "holberton.h"
 int main(void)
-int i
-i = 'Holberton'
 {
-_putchar(i);
-_putchar('/n');
-return(0);
+int i;
+char s[] = "Holberton\n";
+for (i = 0; s[i] != '\0'; i++)
+_putchar(s[i]);
+return (0);
 }
