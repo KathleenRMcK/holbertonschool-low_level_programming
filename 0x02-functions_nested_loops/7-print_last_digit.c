@@ -1,9 +1,19 @@
 /**
- *main - print last digit of number
- *
- *return: 0
+ * print_last_digit - print last digit of number
+ * @i: number being checked
+ * Return: Output
  */
 #include "holberton.h"
-int print_last_digit(int)
+int print_last_digit(int i)
 {
-int r
+if (i < 0)
+{
+_putchar(-i + '0');
+return (-i);
+}
+else
+{
+_putchar(i + '0');
+return (i);
+}
+}
