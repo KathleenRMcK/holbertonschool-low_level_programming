@@ -6,15 +6,19 @@
 #include "holberton.h"
 void jack_bauer(void)
 {
-int n
+int i, j, k, l;
+for (i = 48; i <= 50; i++)
 {
-n = '0000'
-  while(n <= '2359')
-    {
-    _putchar(n);
-    _putchar('/n');
-    }
- n++;
+for (j = 48; j <= 57; j++)
+{
+for (k = 48; k <= 53; k++)
+{
+for (l = 48; l <= 57; l++)
+_putchar(i);
+_putchar(j);
+_putchar(k);
+_putchar(l);
 }
-  return(0);
+}
+}
 }
