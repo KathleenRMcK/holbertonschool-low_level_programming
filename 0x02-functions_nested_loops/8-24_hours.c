@@ -16,6 +16,7 @@ for (k = 48; k <= 53; k++)
 for (l = 48; l <= 57; l++)
 _putchar(i);
 _putchar(j);
+_putchar(58);
 _putchar(k);
 _putchar(l);
 }
