@@ -1,14 +1,13 @@
 /**
- *main - print a to z with new line
+ * print_alphabet - print alphabet in lowercase
  *
- *return: 0
+ * Return: Output
  */
 #include "holberton.h"
 void print_alphabet(void)
-char l
-for(l = 'a'; l >= 'z'; l++)
-  {
-    _putchar(l);
-    _putchar('/n');
-    return(0);
-  }
+{
+int i;
+for (i = 'a'; i <= 'z'; i++)
+_putchar(i);
+_putchar('\n');
+}
