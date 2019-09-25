@@ -1,15 +1,13 @@
 /**
- *main - check for alphabetic character
- *
- *return: 1 if character
+ * _isalpha - check for alphabetic character
+ * @c: character being checked
+ * Return: 1 if character
  */
 #include "holberton.h"
 int _isalpha(int c)
-int c
-int l
-
-for(c = 65; c <= 90; c++)
-  {
-for(l = 97; c <= 122; l++)
-  return(1);
-  }
+{
+if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
+return (1);
+else
+return (0);
+}
