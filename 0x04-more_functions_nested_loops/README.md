@@ -1,0 +1,1 @@
+In this project, students refine their knowledge of nested loops, functions, prototypes and variables.
