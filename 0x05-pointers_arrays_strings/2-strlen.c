@@ -6,10 +6,10 @@
 #include "holberton.h"
 int _strlen(char *s)
 {
-for (s = 0; s != '\0'; s++)
-if (s == '\0')
+int t = 0;
+while (s[t] != '\0')
 {
-return (*s);
+t += 1;
 }
-return (0);
+return (t);
 }
