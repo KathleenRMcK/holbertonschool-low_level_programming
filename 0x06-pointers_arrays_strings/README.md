@@ -1,0 +1,1 @@
+In this project, students hone their skills with pointers and arrays.
