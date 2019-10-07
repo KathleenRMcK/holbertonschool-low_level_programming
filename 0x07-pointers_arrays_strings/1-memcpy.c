@@ -8,14 +8,11 @@
 #include "holberton.h"
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	n = 0;
-	while (n >= src)
+	unsigned int m;
+
+	for (m = 0; m < n; m++)
 	{
-		src++;
-	}
-	if (n == src)
-	{
-		src = dest;
+		dest[m] = src[m];
 	}
 return (dest);
 }
