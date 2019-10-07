@@ -7,3 +7,15 @@
  */
 #include "holberton.h"
 char *_memcpy(char *dest, char *src, unsigned int n)
+{
+	n = 0;
+	while (n >= src)
+	{
+		src++;
+	}
+	if (n == src)
+	{
+		src = dest;
+	}
+return (dest);
+}
