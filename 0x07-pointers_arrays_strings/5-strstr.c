@@ -7,16 +7,19 @@
 #include "holberton.h"
 char *_strstr(char *haystack, char *needle)
 {
-	while (*haystack != '\0')
+	int l, m;
+
+	for (l = 0; haystack[l] != '\0'; l++)
 	{
-	while (*haystack != '\0' && *needle != '\0' && *haystack == *needle)
-	{
-		needle++;
-		haystack++;
+		for (m = 0; needle[m] != '\0'; m++)
+		if (haystack[l + m] != needle[m])
+		{
+			break;
+		}
+		if (needle[m] == '\0')
+		{
+			return (haystack + l);
+		}
 	}
-	if (*needle == '\0')
-		haystack += 1;
-	return (haystack);
-	}
-	return (NULL);
+	return (0);
 }
