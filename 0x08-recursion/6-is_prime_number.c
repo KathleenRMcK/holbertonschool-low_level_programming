@@ -6,18 +6,18 @@
  */
 int isprime(int n, int p)
 {
-        if (n <= 1)
-        {
-                return (0);
-        }
+	if (n <= 1)
+	{
+		return (0);
+	}
 	if (p > (n / 2))
 	{
 		return (1);
 	}
-        if ((n % p) == 0)
-        {
-                return (0);
-        }
+	if ((n % p) == 0)
+	{
+		return (0);
+	}
 	if (n == 1)
 	{
 		return (0);
@@ -38,5 +38,5 @@ int is_prime_number(int n)
 {
 	if (n <= 1)
 		return (0);
-	return(isprime(n, 3));
+	return (isprime(n, 3));
 }
