@@ -1,6 +1,5 @@
 /**
  * is_a_pal - checks if palindrome
- * @s: string being checked
  * @sf: string first
  * @sl: string last
  * Return: Output
@@ -44,13 +43,13 @@ int _strlen_recursion(char *s)
 #include "holberton.h"
 int is_palindrome(char *s)
 {
-        int length;
+	int length;
 
 	length = _strlen_recursion(s);
 
-        if (*s == '\0')
-        {
-                return (1);
-        }
-        return (is_a_pal(s, s + length - 1));
+	if (*s == '\0')
+	{
+		return (1);
+	}
+	return (is_a_pal(s, s + length - 1));
 }
