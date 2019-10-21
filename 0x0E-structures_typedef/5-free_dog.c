@@ -1,6 +1,5 @@
 /**
  * free_dog - frees dogs
- * @dog_t: dog type
  * @d: pointer to dog
  * Return: 0
  */
