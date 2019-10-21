@@ -1,0 +1,1 @@
+In this project, students learn about header guards, macros and how to use them.
