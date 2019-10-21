@@ -1,0 +1,1 @@
+In this project, students learn about structures & typedef and when to use them.
