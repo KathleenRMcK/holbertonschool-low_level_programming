@@ -7,6 +7,7 @@
 int _strlen(char *s)
 {
 	int t = 0;
+
 	while (s[t] != '\0')
 	{
 		t += 1;
@@ -37,7 +38,7 @@ char *argstostr(int ac, char **av)
 	for (l = 0; l < ac; l++)
 	{
 		for (m = 0; av[l][m] != '\0'; m++)
-			catstr[start++] = av [l][m];
+			catstr[start++] = av[l][m];
 		catstr[start++] = '\n';
 	}
 	catstr[start] = '\0';
