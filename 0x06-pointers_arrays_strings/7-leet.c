@@ -4,30 +4,24 @@
  * Return: Output
  */
 #include "holberton.h"
-char *leet(char *str)
+char *leet(char *s)
 {
-	int l;
+	int l, m, n;
+	char upper[] = {'A', 'E', 'O', 'T', 'L'};
+	char lower[] = {'a', 'e', 'o', 't', 'l'};
+	char swap[] = {'4', '3', '0', '7', '1'};
 
-	for (l = 0; str[l] != '\0'; l++)
-	if (str[l] == 'a' || str[l] == 'A')
+	for (l = 0; s[l] != '\0'; l++)
 	{
-		str[l] = '4';
+		n = 0;
+		for (m = 0; swap[m] != '\0'; m++)
+		{
+			if ((s[l] == lower[m]) || (s[l] == upper[l]))
+			{
+				n = m;
+				s[l] = swap[n];
+			}
+		}
 	}
-	if (l == 'e' || l == 'E')
-	{
-		str[l] = '3';
-	}
-	if (l == 'o' || l == 'O')
-	{
-		str[l] = '0';
-	}
-	if (l == 't' || l == 'T')
-	{
-		str[l] = '7';
-	}
-	if (l == 'l' || l == 'L')
-	{
-		str[l] = '1';
-	}
-	return (str);
+	return (s);
 }
