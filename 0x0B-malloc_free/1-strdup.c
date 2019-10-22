@@ -6,13 +6,13 @@
 #include "holberton.h"
 int _strlen(char *s)
 {
-	 int t = 0;
+	int t = 0;
 
-	 while (s[t] != '\0')
-	 {
-		 t += 1;
-	 }
-	 return (t);
+	while (s[t] != '\0')
+	{
+		t += 1;
+	}
+	return (t);
 }
 
 /**
