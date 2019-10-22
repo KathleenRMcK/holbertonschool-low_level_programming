@@ -25,8 +25,8 @@ int **alloc_grid(int width, int height)
 				free(twod[w]);
 			return (NULL);
 		}
-                for (w = 0; w < width; w++)
-                        twod[h][w] = 0;
+		for (w = 0; w < width; w++)
+			twod[h][w] = 0;
 	}
 	return (twod);
 }
