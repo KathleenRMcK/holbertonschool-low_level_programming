@@ -1,19 +1,20 @@
 /**
- * 
- *
- *
+ * print_list - print elements of list
+ * @h: list being printed
+ * Return: Output
  */
 #include "lists.h"
 size_t print_list(const list_t *h)
 {
-	char *str;
-	unsigned int len;
-	struct list_s *next;
+	int l;
 
-	while (h != NULL)
+	for (l = 0; h != NULL; l++)
 	{
-		printf("%d -> ", h -> str);
-		       h = h -> next;
+		if (h->str == NULL)
+			printf("[0] (nil)\n");
+		else
+			printf("[%d] %s\n", h->len, h->str);
+		h = h->next;
 	}
-	printf("[0] (nil)");
-} list_t;
+	return (l);
+}
