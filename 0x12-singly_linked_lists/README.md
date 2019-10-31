@@ -1,0 +1,1 @@
+In this project, students learn how to build and use linked lists. The difference between linked lists and arrays are also explored.
