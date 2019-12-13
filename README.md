@@ -27,6 +27,7 @@ Names | Description
 0x14-bit_manipulation | Using bitwise operators and bit manipulation
 0x15-file_io | I/O system calls and how to use them
 0x16-simple_shell | ***Not included in this Repo***
+0x17-doubly_linked_lists | What is a doubly linked list and how to use them
 
 # Authors
 Created by Kathleen R McKiernan for Holberton School NHV
