@@ -21,7 +21,7 @@ Names | Description
 0x0E-structures_typedef	| Creating and defining structs with typedef
 0x0F-function_pointers | Using function pointers and assoc virtual memory
 0x10-variadic_functions	| Using functions with variadic argument lists
-0x11-printf | Not included in this Repo
+0x11-printf | ***Not included in this Repo***
 0x12-singly_linked_lists | Using linked lists vs arrays
 0x13-more_singly_linked_lists | Expanding understanding of linked lists
 0x14-bit_manipulation | Using bitwise operators and bit manipulation
