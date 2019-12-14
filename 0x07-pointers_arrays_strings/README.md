@@ -1,0 +1,1 @@
+In this project, students finalize their skills with pointers arrays and strings

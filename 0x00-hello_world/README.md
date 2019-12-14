@@ -1,0 +1,1 @@
+In this project, students begin coding in C and begin using the betty style checker.

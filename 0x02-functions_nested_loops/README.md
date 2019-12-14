@@ -1,0 +1,1 @@
+In this project, students learn about nested loops, functions and the difference between a declaration and a definition of a function.

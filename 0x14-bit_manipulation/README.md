@@ -1,0 +1,1 @@
+In this project, students learn how to manipulate bits and use bitwise operators

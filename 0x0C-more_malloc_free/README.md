@@ -1,0 +1,1 @@
+In this project, students refine their knowledge of malloc, freem calloc and realloc.
