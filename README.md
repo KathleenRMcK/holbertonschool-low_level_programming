@@ -1,7 +1,7 @@
 # Description
 In this project, students begin coding in C and begin using the betty style checker.
 
-# Project Files
+# Directories
 Names | Description
 ------|-----------------------
 0x00-hello_world | C coding basics
