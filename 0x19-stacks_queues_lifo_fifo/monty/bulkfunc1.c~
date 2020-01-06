@@ -1,0 +1,9 @@
+#include "monty.h"
+
+void oppall(unsigned int checker, const list_t *whichone)
+
+void oppint(unsigned int checker, const list_t *whichone)
+
+void oppop(unsigned int checker, const list_t *whichone)
+
+void opswap(unsigned int checker, const list_t *whichone)
