@@ -31,6 +31,11 @@ Names | Description
 0x16-simple_shell | ***Not included in this Repo***
 0x17-doubly_linked_lists | What is a doubly linked list and how to use them
 0x18-dynamic_libraries | Building and using dynamic libraries
+0x19-stacks_queues_lifo_fifo/monty | Creating the Monty language
+0x1A-hash_tables | Making and using hash tables
+0x1B. C - Sorting algorithms & Big O | **Not included in this Repo**
+0x1C-makefiles | When, why and how to use Makefiles
+
 
 ### Authors
 Created by Kathleen R McKiernan for Holberton School NHV
