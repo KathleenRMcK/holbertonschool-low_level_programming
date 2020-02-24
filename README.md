@@ -1,7 +1,9 @@
-# Description
+# Holberton School - Low Level Programming
+
+### Description
 In this project, students begin coding in C and begin using the betty style checker.
 
-# Directories
+### Directories
 Names | Description
 ------|-----------------------
 0x00-hello_world | C coding basics
@@ -30,5 +32,5 @@ Names | Description
 0x17-doubly_linked_lists | What is a doubly linked list and how to use them
 0x18-dynamic_libraries | Building and using dynamic libraries
 
-# Authors
+### Authors
 Created by Kathleen R McKiernan for Holberton School NHV
