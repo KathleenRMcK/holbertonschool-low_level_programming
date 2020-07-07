@@ -10,7 +10,9 @@ def island_perimeter(grid):
     for lon in range(len(grid)):
         for lat in range(len(grid[lon])):
             if grid[lon][lat] == 1:
-                if lon == 0 or lat == 0:
+                if lon == 0:
+                    perimeter = perimeter + 1
+                if lat == 0:
                     perimeter = perimeter + 1
                 if grid[lon - 1][lat] == 0:
                     perimeter = perimeter + 1
