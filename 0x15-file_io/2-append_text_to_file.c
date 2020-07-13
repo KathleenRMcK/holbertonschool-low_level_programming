@@ -23,8 +23,10 @@ int _strlen(char *s)
  */
 int append_text_to_file(const char *filename, char *text_content)
 {
-	int helper = 0, length, hold;
+	int helper, length, hold;
 
+	helper = 0;
+	
 	if (!filename)
 		return (-1);
 	helper = open(filename, O_WRONLY | O_APPEND);
