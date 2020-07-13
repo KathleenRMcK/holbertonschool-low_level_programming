@@ -25,26 +25,26 @@ int append_text_to_file(const char *filename, char *text_content)
 {
         int helper = 0, length, hold;
 
-	if (!filename)
-	        return (-1);
-	helper = open(filename, O_WRONLY | O_APPEND);
-	if (!text_content)
-	{
-	        if (close(helper) == -1)
-		{
-		        return (-1);
-		}
-		else
-		{
-		        return (1);
-		}
-	}
-	length = _strlen(text_content);
-	hold = write(helper, text_content, length);
-	if (hold == -1)
-	{
-       	        return (-1);
-	}
-	close(helper);
-	return (1);
+        if (!filename)
+                return (-1);
+        helper = open(filename, O_WRONLY | O_APPEND);
+        if (!text_content)
+        {
+                if (close(helper) == -1)
+                {
+                        return (-1);
+                }
+                else
+                {
+                        return (1);
+                }
+        }
+        length = _strlen(text_content);
+        hold = write(helper, text_content, length);
+        if (hold == -1)
+        {
+                return (-1);
+        }
+        close(helper);
+        return (1);
 }
