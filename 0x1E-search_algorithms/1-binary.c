@@ -1,6 +1,5 @@
 #include "search_algos.h"
 
-
 /**
  * binary_search - searches for value in sorted array of ints using binary search
  * @array: first elem in array being searched
@@ -8,6 +7,7 @@
  * @value: value to search for
  * Return: if NULL return -1
  */
+
 int binary_search(int *array, size_t size, int value)
 {
 	int parse, helper, start, end;
